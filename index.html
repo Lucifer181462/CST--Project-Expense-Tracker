@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <ul>
+    <li class="logo">Expense Tracker</li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projectObjectives.html">Project Objective</a></li>
+    <li><a href="TechStack.html">Tech Stack</a></li>
+    <li><a href="Constraints.html">Constraints</a></li>
+  </ul>
+</nav>
+
+<div id="home" class="page active">
+
+  <div class="hero">
+
+    <h1>Expense Tracker</h1>
+    <p>Keep track of your income and expenses easily.</p>
+
+    <div class="grid">
+
+      <div class="card income">
+  <h3>Total Income</h3>
+  <div class="amount" id="income">Rs. 0</div>
+</div>
+
+<div class="card expense">
+  <h3>Total Expense</h3>
+  <div class="amount" id="expense">Rs. 0</div>
+</div>
+
+<div class="card balance">
+  <h3>Balance</h3>
+  <div class="amount" id="balance">Rs. 0</div>
+</div>
+      <div class="add-card">
+
+        <h3>Add Transaction</h3>
+
+        <label>Description</label>
+        <input type="text" id="text" placeholder="e.g. Groceries">
+
+        <label>Amount</label>
+        <input type="number" id="amount" placeholder="Enter amount">
+
+        <label>Type</label>
+        <select id="type">
+          <option>Income</option>
+          <option>Expense</option>
+        </select>
+
+        <label>Date</label>
+        <input type="date" id="date">
+
+        <button id="btn">Add</button>
+
+      </div>
+<div class="history-card" id="history">
+  <h3>Transaction History</h3>
+</div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+<footer class="team-footer">
+
+  <div class="footer-content">
+
+    <div class="footer-left">
+      <h2>Expense Tracker</h2>
+      <p>
+        A Semester-2 Web Development Project made using
+        HTML, CSS and JavaScript.
+      </p>
+    </div>
+
+    <div class="footer-right">
+      <h3>Our Team</h3>
+
+      <div class="team-grid">
+
+        <a href="https://www.linkedin.com/in/shivansh-sharma-9b3658390/" target="_blank" class="team-member">
+          <div class="avatar">S</div>
+          <div>
+            <h4>Shivansh Sharma</h4>
+            <span></span>
+            
+            <span>LinkedIn Profile ↗</span>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/notlegalfaqr/" target="_blank" class="team-member">
+          <div class="avatar">A</div>
+          <div>
+            <h4>Arindam Bhattacharya</h4>
+            <span>LinkedIn Profile ↗</span>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/diljaan-kalra-086495383/" target="_blank" class="team-member">
+          <div class="avatar">R</div>
+          <div>
+            <h4>Diljaan Kalra</h4>
+            <span>LinkedIn Profile ↗</span>
+          </div>
+        </a>
+
+        <a href="" target="_blank" class="team-member">
+          <div class="avatar">K</div>
+          <div>
+            <h4>Zubin Sharma</h4>
+            <span>LinkedIn Profile ↗</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+Expense Tracker Project • Made with ❤️ by Shivansh Sharma, Arindam Bhattacharya, Diljaan Kalra, Zubin Sharma
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
